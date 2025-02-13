@@ -72,15 +72,15 @@ Votre mission est de proposer une architecture intégrant à la fois une logique
 
 ### Langages
     
-- C# avec ASP.NET pour API RESTful et services gRPC.
+- C# avec AspNetCore pour API RESTful et GrpcDotNet pour les API gRPC.
 
 - Langage maîtrisé par l’équipe.
 
-### Middleware
+### Message Broker
 
-- Message Broker : Communication asynchrone et optimisation du traitement des messages.
-
-- Équilibrage de charge : Répartition optimale du trafic.
+- Mise en place d'une Event Queue assurant la communication asynchrone entre les services via le protocole AMQP.
+- Amélioration de la scalabilité et de la résilience du système.
+- Utilisation de RabbitMQ, parfaitement intégré à l'écosystème .NET grâce à MassTransit.
 
 ### Orchestration
 
